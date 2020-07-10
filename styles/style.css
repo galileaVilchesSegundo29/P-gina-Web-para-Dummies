@@ -1,0 +1,359 @@
+/* Hoja de estilos */
+
+/* Etiquetas */
+body{
+    padding: 0;
+    margin: 0;
+}
+/* ---------------------Header--------------------- */
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+    background: #673C4F;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    /* Padding-top  padding-right  padding-bottom  padding-left*/
+    padding: 15px 20px 15px 20px;
+    color:#ffffff;
+    border-radius: 10px;
+    transition: 1s;
+}
+a:hover{
+    text-decoration: none;
+    background: #726E97;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    /* Padding-top  padding-right  padding-bottom  padding-left*/
+    padding: 15px 20px 15px 20px;
+    color:#ffffff;
+    border-radius: 10px;
+    transition: 1s;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+header{
+    height: 100vh;
+    background-size: cover;
+}
+/* ---------------------Seccion "Sobre mi"--------------------- */
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+}
+/* ---------------------Seccion "Mis Trabajos"--------------------- */
+span{
+    font-size: 60px;
+    color: #673C4F;
+}
+
+/* Clases */
+/* ---------------------Menu de navegacion--------------------- */
+.header_container{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.nav-menu p{
+    font-size: 35px;
+}
+.nav-menu-list{
+    display: flex;
+}
+.nav-menu-list a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    background: none;
+    color: black;
+    padding: 0;
+    transition: 1s;
+}
+.nav-menu-list a:hover{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    background: none;
+    color: #726E97;
+    padding: 0;
+    transition: 1s;
+}
+/* ---------------------Titular--------------------- */
+.headline{
+    text-align: center;
+    margin-top: 180px;
+}
+/* ---------------------Seccion "Sobre mi"--------------------- */
+.about_me_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p_and_b_container{
+    width: 42%;
+    text-align: center;
+}
+.p_and_b_container p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+}
+.p_and_b_container a{
+    margin-top: 20px;
+    display: inline-block;
+}
+/* ---------------------Seccion "Servicios"--------------------- */
+.services_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service{
+    width: 23%;
+    padding: 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+.service p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    height: 310px;
+}
+.service  h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+.service img{
+    float: right;
+}
+.chinese_violet{
+    background: #7F557D;
+}
+.rhythm{
+    background: #726E97;
+}
+.cerulean_frost{
+    background: #7698B3;
+}
+/* ---------------------Seccion "Mis Trabajos"--------------------- */
+.my_works_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.owl-nav{
+    text-align: center;
+}
+/* ---------------------Seccion "Trabajar conmigo"--------------------- */
+.work_with_me_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.w_w_me_{
+    width: 23%;
+    padding: 38px;
+    margin-bottom: 40px;
+}
+.w_w_me_ h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.w_w_me_ p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 28px;
+}
+/* ---------------------Seccion "Blog"--------------------- */
+.blog_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.blog_publication{
+    width: 23%;
+    padding: 38px;
+    margin-bottom: 40px;
+    /* x-value  y-value  blur  spread */
+    box-shadow: 1px 1px 14px 0px #ccc;
+}
+.blog_publication h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.blog_publication p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    color: #5A6169;
+    line-height: 24px;
+    margin: 0;
+    padding: 20px;
+}
+.blog_publication a{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* ID's */
+/* ---------------------Seccion "Blog"--------------------- */
+#the_about_me{
+    padding-top: 70px;
+}
+#the_services{
+    padding-top: 90px;
+}
+#the_works{
+    padding-top: 90px;
+}
+#the_work_with_me{
+    padding-top: 90px;
+}
+#the_blog{
+    background: #F9FAFC;
+    padding-top: 90px;
+}
+/* ---------------------Seccion Final--------------------- */
+#the_final{
+    background: linear-gradient(rgb(114,110,151),rgb(131,181,209));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+#the_final h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: #ffffff;
+}
+#the_final a{
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+#the_final a:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    display: inline-block;
+}
+
+/* Diseño Responsivo */
+.menu-icon{
+    display: none;
+}
+@media (max-width: 800px){
+    /* Etiquetas */
+    /* ---------------------Header--------------------- */
+    nav{
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        background: #7F557D;
+        width: 100%;
+        display: none;
+    }
+    h1{
+        font-size: 49px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    /* Clases */
+    /* ---------------------Menú de navegación--------------------- */
+    nav .nav-menu-list{
+        flex-direction: column;
+        display: flex;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .headline{
+        margin-top: 54px;
+    }
+    /* ---------------------Seccion "Sobre mi"--------------------- */
+    .about_me_container{
+        flex-direction: column;
+    }
+    .about_me_container img{
+        width: 90%;
+    }
+    .p_and_b_container{
+        width: 90%;
+    }
+    /* ---------------------Seccion "Servicios"--------------------- */
+    .services_container{
+        flex-direction: column;
+    }
+    .service{
+        width: 72%;
+    }
+    /* ---------------------Seccion "Trabajar conmigo"--------------------- */
+    .work_with_me_container{
+        flex-direction: column;
+    }
+    .w_w_me_{
+        width: 85%;
+        margin: auto;
+    }
+    /* ---------------------Seccion "Blog"--------------------- */
+    .blog_container{
+        flex-direction: column;
+    }
+    .blog_publication{
+        width: 75%;
+        margin: auto;
+    }
+}
+@media (min-width: 700px) and (max-width: 900px){
+    /* Etiquetas */
+    /* ---------------------Header--------------------- */
+    header{
+        height: 70vh;
+    }
+    /* Clases */
+    /* ---------------------Seccion "Sobre mi"--------------------- */
+    .about_me_container img{
+        width: 50%;
+    }
+    /* ---------------------Seccion "Servicios"--------------------- */
+    .service{
+        width: 44%;
+    }
+    /* ---------------------Seccion "Blog"--------------------- */
+    .blog_publication{
+        width: 60%;
+        margin: auto;
+    }
+}
+
